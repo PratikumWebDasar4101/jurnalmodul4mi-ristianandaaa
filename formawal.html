@@ -4,7 +4,35 @@
 	<title></title>
 </head>
 <body>
-silakan isi disini
-
+<form action="proses.php" method="POST" enctype="multipart/form-data">
+	<table>
+		<tr>
+			<td>
+			<label>PILIH HOBBY</label></td>
+			<td>
+			<input type="checkbox" name="Hobi" value="Makan">Makan<br>
+			<input type="checkbox" name="Hobi" value="Tidur">Tidur<br>
+			<input type="checkbox" name="Hobi" value="Main">Main<br>
+			<input type="checkbox" name="Hobi" value="Bernapas">Bernapas<br>
+			<input type="checkbox" name="Hobi" value="Berkedip">Berkedip<br>
+			<input type="checkbox" name="Hobi" value="Berkedip">Berjalan<br>
+			<input type="checkbox" name="Hobi" value="Berkedip">Berlari<br>
+			<input type="submit" name="Tambah" value="Tambah">
+			<input type="submit" name="Hapus" value="Hapus"><br>
+			<br>
+			<br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<label>UPLOAD PHOTOS</label>
+	</td>
+	<td>
+		<input type="file" name="photo">
+		<input type="submit" name="Submit" value="Submit">
+	</td>
+</tr>
+</table>
+</form>
 </body>
 </html>
